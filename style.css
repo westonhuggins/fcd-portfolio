@@ -1,3 +1,40 @@
+.content {
+  margin-left: 3vw;
+  margin-right: 3vw;
+}
+.content img {
+  width: 100%;
+  margin-bottom: 10px;
+}
+.textbox {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  visibility: hidden;
+  opacity: 0;
+}
+.imgbox img:hover .textbox {
+  visibility: visible;
+  opacity: 1;
+}
 .footer {
   background-color: lightgray;
+  padding-left: 60px;
+}
+.col-footer {
+padding-top: 20px;
+}
+.boldfoot {
+  font-weight: bold;
+  color: black;
+}
+.footer a:link,a:visited {
+  color: black;
+}
+.footer a:hover {
+  color: red;
+  text-decoration: none;
+  animation-timing-function: ease-in;
 }
